@@ -1,6 +1,9 @@
-body {
+* {
     box-sizing: border-box;
-    background-color: rebeccapurple;
+}
+body, h1, h2, h3, h4 {
+    font-family: sans-serif;
+    margin: 0;
 }
 header {
     background-color: #85c4ff;
@@ -10,5 +13,43 @@ header nav {
 
 }
 header nav a {
-    
+
+}
+section.section-elemnt {
+    margin: 0px;
+    padding: 40px;
+}
+section.box-model-section {
+    background-color: #CFF1CA;
+}
+.interior {
+    border: 10px solid black;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px;
+    width: 100%;
+}
+.interior h1{
+    color: black;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 45px;
+}
+.interior h2{
+    color: black;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1;
+}
+.interior p{
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+}
+.box-model-interior {
+    background-color: #9ef490;
+    border: #187908;
+    min-height: 600px;
 }
