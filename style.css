@@ -8,9 +8,14 @@ body, h1, h2, h3, h4 {
 header {
     background-color: #85c4ff;
     padding: 40px;
+    font-size: 24px;
+    line-height: 28px;
 }
 header nav {
-
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    gap: 46px 48px;
 }
 header nav a {
 
@@ -21,13 +26,7 @@ section.section-elemnt {
 }
 section.box-model-section {
     background-color: #CFF1CA;
-}
-.interior {
-    border: 10px solid black;
-    margin: 0 auto;
-    max-width: 1200px;
     padding: 40px;
-    width: 100%;
 }
 .interior h1{
     color: black;
@@ -50,6 +49,69 @@ section.box-model-section {
 }
 .box-model-interior {
     background-color: #9ef490;
-    border: #187908;
+    border: 10px solid #187908;
     min-height: 600px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px;
+    width: 100%;
+}
+section.flex-box-section {
+    background-color: #F1D3CA;
+    min-height: 600px;
+}
+section.positioning-section {
+    background-color: #CAD7F1;
+    min-height: 680px;
+}
+section.heading-section {
+    min-height: 558px;
+    background-color: #F1CAF0;
+    margin: 0 auto;
+}
+section.javascript-section {
+    height: 364px;
+    background-color: #FAEFD3;
+}
+footer {
+    height: 108px;
+    background-color: #FFC3C3;
+    padding: 40px;
+}
+.heading-usage-text {
+    font-weight: 700;
+    color: #3A0F39;
+    padding: 40px;
+    margin: 0 auto;
+}
+.heading-usage-text h1 {
+    color: #6C0468;
+    font-size: 64px;
+    line-height: 74px;
+}
+.heading-usage-text h2 {
+    color: #6C0468;
+    font-size: 40px;
+    line-height: 46px;
+}
+.heading-usage-text h3 {
+    color: #6C0468;
+    font-size: 64px;
+    line-height: 74px;
+
+}
+.heading-usage-text h4 {
+    color: #6C0468;
+    font-size: 36px;
+    line-height: 41px;
+}
+.heading-usage-text p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3A0F39;
+}
+.footer-text p {
+    color: black;
+    font-size: 24px;
 }
