@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 1 - Paloma</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -30,20 +31,34 @@
             </div>
         </section>
         <section id="flex-box" class="flex-box-section section-element">
-            <div class="flex-box-interior interior ">
-                <div class="top-row-box"></div>
-                <div class="bottom-row-box">
-                    <div class="botton-left-boxes"></div>
-                    <div class="bottom-right-boxes"></div>
+            <div class="interior-flex interior ">
+                <div class="interior-flex--top">
+                    <div>
+                        <h1>Display: Flex</h1> 
+                    </div>
+                </div>
+                <div class="interior-flex--bottom">
+                    <div class="interior-flex--horizontal">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="interior-flex--vertical">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="positioning" class="positioning-section section-element">
             <div class="positioning-intertior interior">
-                <div class="position-title">
-                    <p>Positioning</p>
-                    <p>Elements</p>
-                </div>
+                <h1>Positioning <br> Elements</h1>
+                <div class="circle circle-one" style="right:47px; top:34px"></div>
+                <div class="circle circle-two" style="right:186px; bottom:143px"></div>
+                <div class="circle circle-three" style="left:47px; bottom:48px"></div>
+                <div class="square square-one" style="right:510px; bottom:204px"></div>
+                <div class="square square-two" style="right:56px; bottom:48px"></div>
             </div>
         </section>
         <section id="heading-section" class="heading-section section-element">
@@ -60,7 +75,15 @@
             </div>
         </section>
         <section id="simple-javascript" class="javascript-section section-element">
-
+            <div class="javascript-interior">
+                <div class="javascript-text">
+                    <h1>Simple JavaScript</h1>
+                </div>
+                <div class="javascript-bottom">
+                    <p class="count" id="click-counter">0</p>
+                    <button class="increase-button" id="inc-button">Click to Increase</button>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
