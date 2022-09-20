@@ -7,18 +7,19 @@ body, h1, h2, h3, h4 {
 }
 header {
     background-color: #85c4ff;
-    padding: 40px;
     font-size: 24px;
     line-height: 28px;
+    padding: 40px;
 }
 header nav {
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
     gap: 46px 48px;
+    justify-content:flex-end;
 }
-header nav a {
-
+header nav a {    
+    color: black;
+    text-decoration: none;
 }
 section.section-elemnt {
     margin: 0px;
@@ -62,32 +63,32 @@ section.flex-box-section {
     padding: 40px;
 }
 section.positioning-section {
-    margin: 0 auto;
-    padding: 40px;
     background-color: #CAD7F1;
+    margin: 0 auto;
     min-height: 680px;
+    padding: 40px;
 }
 .positioning-section .interior{
     background-color: #85C4FF;
     border: 10px solid #0E3F9E;
-    padding: 40px;
-    width: 100%;
-    position: relative;
     height: 606px;
     overflow: hidden;
+    padding: 40px;
+    position: relative;
+    width: 100%;
 }
 section.heading-section {
-    min-height: 558px;
     background-color: #F1CAF0;
     margin: 0 auto;
+    min-height: 558px;
 }
 section.javascript-section {
-    height: 410px;
     background-color: #FAEFD3;
-    padding-top: 36px;
-    padding-right: 32px;
+    height: 410px;
     padding-bottom: 35px;
     padding-left: 48px;
+    padding-right: 32px;
+    padding-top: 36px;
 }
 footer {
     align-content: center;
@@ -97,10 +98,10 @@ footer {
     padding: 40px;
 }
 .heading-usage-text {
-    font-weight: 700;
     color: #3A0F39;
-    padding: 40px;
+    font-weight: 700;
     margin: 0 auto;
+    padding: 40px;
 }
 .heading-usage-text h1 {
     color: #6C0468;
@@ -140,10 +141,10 @@ footer {
 .interior-flex  {
     border: none;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    flex-direction: column;
 }
 /*every div have these properties in interior flex*/
 .interior-flex {
@@ -152,42 +153,42 @@ footer {
 }
 
 .interior-flex--top {
-    flex-basis: 100%;
-    margin: 0 auto 40px auto;
+    border: 10px solid #7D260B;
+    background-color: #FF9371;
     display: flex;
+    flex-basis: 100%;
     justify-content: center;
+    margin: 0 auto 40px auto;
     padding: 32px;
     text-align: center;
     width: 100%;
-    border: 10px solid #7D260B;
-    background-color: #FF9371;
 }
 .interior-flex--top > div {
+    align-items: center;
     border: 5px solid #DD4414;
     background-color: #FFECE5;
-    height: 170px;
     display: flex;
+    height: 170px;
+    justify-content: center;
     max-width: 825px;
     width: 100%;
-    justify-content: center;
-    align-items: center;
 }
 .interior-flex--top > div > h1 {
     margin: 0px;
 }
 .interior-flex--horizontal, 
 .interior-flex--vertical {
+    border: 10px solid #7D260B;
     display: flex;
     flex-basis: 50%;
     min-height: 325px;
     padding: 20px;
-    border: 10px solid #7D260B;
 }
 .interior-flex--horizontal > div, 
 .interior-flex--vertical > div {
-    flex-basis: 33%;
     border: 5px solid #DD4414;
     background-color: #FFECE5;
+    flex-basis: 33%;
 }
 .interior-flex--vertical > div {
     margin-bottom: 20px;
@@ -196,16 +197,16 @@ footer {
     margin-right: 20px;
 }
 .interior-flex--horizontal {
+    background-color: #FF9371;
     display: flex;
     flex-direction: row;
     margin-right: 16px;
-    background-color: #FF9371;
 }
 .interior-flex--vertical {
+    background-color: #FF9371;
     display: flex;
     flex-direction: column;
     margin-left: 16px;
-    background-color: #FF9371;
 }
 .interior-flex--horizontal > div:last-of-type {
     margin: 0;
@@ -215,19 +216,18 @@ footer {
 }
 .circle,
 .square {
-    height: 200px;
-    width: 200px;
     border: 10px solid #0E3F9E;
     background-color: #4480F4;
+    height: 200px;
     position: absolute;
-
+    width: 200px;
 }
 .circle {
     border-radius: 50%;
 }
 .positioning-section h1 {
-    z-index: 1;
     font-size: 64px;
+    z-index: 1;
 }
 .interior-flex--bottom {
     display: flex;
@@ -235,30 +235,30 @@ footer {
 }
 .javascript-interior {
     border: 10px solid #644904;
-    height: 100%;
     display: flex;
     flex-direction: column;
+    height: 100%;
     padding: 37px 38px;
 }
 
 .javascript-interior h1 {
-    font-size: 64px;
     color: #644904;
+    font-size: 64px;
 }
 .javascript-bottom {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .increase-button {
-    width: 276px;
-    height: 80px;
+    background-color: #CDC5B1;
     border: 3px solid #79756C;
     font-size: 24px;
+    height: 80px;
     margin-left: 35px;
-    background-color: #CDC5B1;
+    width: 276px;
 }
 .javascript-bottom p {
-    font-size: 64px;
     color: #504D46;
+    font-size: 64px;
 }
