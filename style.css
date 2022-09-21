@@ -14,12 +14,23 @@ header {
 header nav {
     display: flex;
     flex-direction: row;
-    gap: 46px 48px;
     justify-content:flex-end;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
 }
 header nav a {    
     color: black;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 5px;
     text-decoration: none;
+}
+header nav a:last-of-type {
+    margin-right: 0px;
+}
+header nav a:first-of-type {
+    margin-left: 0px;
 }
 section.section-elemnt {
     margin: 0px;
@@ -72,6 +83,8 @@ section.positioning-section {
     background-color: #85C4FF;
     border: 10px solid #0E3F9E;
     height: 606px;
+    margin: 0 auto;
+    max-width: 1200px;
     overflow: hidden;
     padding: 40px;
     position: relative;
@@ -96,6 +109,10 @@ footer {
     display: grid;
     height: 108px;
     padding: 40px;
+}
+.heading-intertior {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .heading-usage-text {
     color: #3A0F39;
@@ -134,6 +151,11 @@ footer {
     line-height: 23px;
     margin-bottom: 45px;
 }
+.footer-text {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
 .footer-text p {
     color: black;
     font-size: 24px;
@@ -144,6 +166,8 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
     width: 100%;
 }
 /*every div have these properties in interior flex*/
@@ -225,6 +249,9 @@ footer {
 .circle {
     border-radius: 50%;
 }
+.positioning-intertior{
+    max-width: 1200px;
+}
 .positioning-section h1 {
     font-size: 64px;
     z-index: 1;
@@ -238,6 +265,8 @@ footer {
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
     padding: 37px 38px;
 }
 
