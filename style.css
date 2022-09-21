@@ -21,6 +21,7 @@ header nav {
 }
 header nav a {    
     color: black;
+    font-weight: bold;
     margin: 0 15px;
     padding: 5px;
     text-decoration: none;
